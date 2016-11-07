@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lora', serif;
+    background: blanchedalmond;
+    /*font-size: 14px;*/
+}
+
+#container {
+    width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+/*    overflow: auto;*/
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+header {
+    background: ;
+    padding: ;
+    text-align: center;
+}
+
+main {
+    height: 350px;
+    border: ;
+    margin: ;
+    padding: ;
+}
+
+li {
+    list-style: none;
+    line-height: ;
+}
+
+footer {
+    padding: ;
+    background: ;
+    text-align: center;
+}
+
+input#name, input#shout {
+    padding: 5px;
+    height: 10px;
+}
+
+input#name {
+    width: ;
+    margin-right: ;
+}
+
+input#shout {
+    width: ;
+}
+
+input#submit {
+    padding: ;
+    border: ;
+    background: ;
+    color: ;
+    cursor: pointer;
+}
