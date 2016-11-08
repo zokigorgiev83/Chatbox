@@ -6,7 +6,6 @@
 body {
     font-family: 'Lora', serif;
     background: blanchedalmond;
-    /*font-size: 14px;*/
 }
 
 #container {
@@ -16,32 +15,29 @@ body {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-/*    overflow: auto;*/
     border: 3px solid black;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 header {
-    background: ;
-    padding: ;
+    background: black;
+    padding: 5px;
     text-align: center;
+    color: white;
 }
 
 main {
     height: 350px;
-    border: ;
-    margin: ;
-    padding: ;
 }
 
 li {
     list-style: none;
-    line-height: ;
 }
 
 footer {
-    padding: ;
-    background: ;
+    padding: 10px;
+    background: navajowhite;
+    border-top: 2px solid black;
     text-align: center;
 }
 
@@ -51,18 +47,21 @@ input#name, input#shout {
 }
 
 input#name {
-    width: ;
-    margin-right: ;
+    width: 150px;
+    margin-right: 30px;
 }
 
 input#shout {
-    width: ;
+    width: 200px;
 }
 
 input#submit {
-    padding: ;
-    border: ;
-    background: ;
-    color: ;
+    width: 70px;
+    padding: 1.5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-weight: bolder;
+    color: blue;
+    font-family: cursive;
     cursor: pointer;
 }
