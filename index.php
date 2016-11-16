@@ -22,7 +22,7 @@ $shouts = mysqli_query($connection, $query);
             <main id="shouts">
                 <ul>
                     <?php while ($row = mysqli_fetch_assoc($shouts)) : ?>
-                    <li> <?php echo $row['name'] . ': "' . '<b>' . $row['shout'] . '</b>' . '" [' . $row['date'] . ']'; ?> </li>
+                    <li> <?php echo $row['name'] . ': ' . '<b>' . $row['shout'] . '</b>' . ' [' . $row['date'] . ']'; ?> </li>
                     <?php endwhile; ?>
                 </ul>
             </main>
