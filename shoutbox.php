@@ -18,4 +18,3 @@ if (isset($_POST['name']) && isset($_POST['shout'])) {
     
     echo stripslashes('<li>' . $name . ': ' . '<b>' . $shout . '</b>'. ' [' . $date . ']</li>');
 }
-
